@@ -21,11 +21,13 @@ public class Game {
 			if (Game.board.CheckGameDraw(Player.white)) {
 				break;
 			}
+			
+			Game.board.Display();
 
 			White.Move();
 			if (Game.board.CheckGameComplete()) {
 				UserInteractions.DisplayGreetings(Player.white);
-				//Game.board.Display();
+				Game.board.Display();
 				break;
 			}
 
@@ -42,11 +44,11 @@ public class Game {
 			Black.Move();
 			if (Game.board.CheckGameComplete()) {
 				UserInteractions.DisplayGreetings(Player.black);
-				//Game.board.Display();
+				Game.board.Display();
 				break;
 			}
 
-			// Game.board.Display();
+			Game.board.Display();
 			/////////////////////////////////////////
 			// System.out.println("Black ="+Game.board.blackPieces+",
 			// White="+Game.board.whitePieces);

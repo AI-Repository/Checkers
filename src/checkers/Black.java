@@ -27,7 +27,7 @@ public class Black {
 		} else if(owner.equals(Owner.RANDOM)) {
 			RandomRobot.makeNextBlackMoves();
 		} else if(owner.equals(Owner.LMS)) {
-			
+			LMSRobot.makeNextBlackMoves();
 		}
  	}
 

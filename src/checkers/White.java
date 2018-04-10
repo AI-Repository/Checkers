@@ -25,7 +25,7 @@ public class White {
 		} else if (owner.equals(Owner.RANDOM)) {
 			RandomRobot.makeNextWhiteMoves();
 		} else if (owner.equals(Owner.LMS)) {
-
+			LMSRobot.makeNextWhiteMoves();
 		}
 	}
 
