@@ -30,7 +30,9 @@ enum Player{
  */
 enum Owner{
     HUMAN,
-    ROBOT
+    ROBOT,
+    LMS,
+    RANDOM
 }
 
 enum MoveDir{
